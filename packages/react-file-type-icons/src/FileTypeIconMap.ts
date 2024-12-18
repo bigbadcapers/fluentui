@@ -7,6 +7,9 @@ export const FileTypeIconMap: { [key: string]: { extensions?: string[] } } = {
   accdb: {
     extensions: ['accdb', 'mdb'],
   },
+  aipage: {
+    extensions: ['fluid', 'loop', 'note'],
+  },
   archive: {
     extensions: ['7z', 'ace', 'arc', 'arj', 'dmg', 'gz', 'iso', 'lzh', 'pkg', 'rar', 'sit', 'tgz', 'tar', 'z'],
   },
@@ -306,9 +309,6 @@ export const FileTypeIconMap: { [key: string]: { extensions?: string[] } } = {
   linkedfolder: {},
   listform: {},
   listitem: {},
-  loop: {
-    extensions: ['fluid', 'loop', 'note'],
-  },
   loopworkspace: {},
   officescript: {
     extensions: ['osts'],
